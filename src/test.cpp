@@ -1,6 +1,11 @@
 #include "test.hpp"
 
-void Test::testFunc()
+void TestClass::testFunc()
 {
     printf("Configuration file reader\n");    
+}
+
+int TestClass::add(int a, int b)
+{
+    return a+b;
 }

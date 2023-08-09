@@ -36,3 +36,6 @@
 
 # Demo app build
 /demoApp/build/*
+
+# Tests build
+/tests/build/*

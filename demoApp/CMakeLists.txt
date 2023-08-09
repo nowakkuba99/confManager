@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD 17)            # Enable c++17 standard
 add_executable(${CMAKE_PROJECT_NAME} demoConfReader.cpp)
 
 # ---- Link libraries ----
-# AppToGIF
+# ConfReader
 include_directories(${CMAKE_SOURCE_DIR}/../inc)
 link_directories(${CMAKE_SOURCE_DIR}/../inc)
 target_link_libraries(${CMAKE_PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/../build/libconfReader.a)

@@ -2,7 +2,7 @@
 
 int main()
 {
-    Test::testFunc();
+    TestClass::testFunc();
 
     return EXIT_SUCCESS;
 }
