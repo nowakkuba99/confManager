@@ -13,8 +13,8 @@ jobs:
     
     - uses: actions/checkout@v1
     - name: Create build folder inside tests folder
-      run: cd /home/runner/work/githubActionsGoogleTest/githubActionsGoogleTest/tests && mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS="-Werror" ..
+      run: cd /home/runner/work/confReader/confReader/tests && mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS="-Werror" ..
     - name: Make tests with CMakeLists
-      run: cd /home/runner/work/githubActionsGoogleTest/githubActionsGoogleTest/tests && cd build && make
+      run: cd /home/runner/work/confReader/confReader/tests && cd build && make
     - name: Run Tests
-      run: /home/runner/work/githubActionsGoogleTest/githubActionsGoogleTest/tests/build/test_module
+      run: /home/runner/work/confReader/confReader/tests/build/test_module
