@@ -1,4 +1,4 @@
-name: GoogleTests_template
+name: confReaderGithubActions
 
 on:
   push:
