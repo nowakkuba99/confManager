@@ -12,6 +12,7 @@ set(CMAKE_CXX_STANDARD 17)
 # Source files paths
 set(SOURCE_FILES 
     src/test.cpp
+    src/ConfHandle.cpp
     )
 # Add library
 add_library(${CMAKE_PROJECT_NAME} STATIC ${SOURCE_FILES})
